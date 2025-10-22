@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surat dari Banyak Hati 💚</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- File CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-emerald-50 via-green-50 to-teal-100 min-h-screen py-10 px-4">
+
+  <!-- Header -->
+  <header class="text-center mb-12 max-w-3xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold text-emerald-800 mb-4 title-text drop-shadow-sm">
+      Kotak Surat Hati 💌
+    </h1>
+    
+    <div class="w-32 h-1 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-full mx-auto mb-6"></div>
+    
+    <p class="text-lg text-emerald-700 leading-relaxed subtitle-text italic">
+      “Kumpulan pesan hangat dari berbagai hati. Setiap kata ditulis dengan penuh perasaan 🌿”
+    </p>
+  </header>
+
+  <!-- Container Surat -->
+  <main id="daftar-surat" class="max-w-7xl mx-auto grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Surat akan di-generate oleh JavaScript -->
+  </main>
+
+  <!-- Tombol Kembali -->
+  <div class="text-center mt-16">
+    <button 
+      onclick="kembaliKeIndex()"
+      class="back-button px-10 py-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+      ← Kembali ke Halaman Utama
+    </button>
+  </div>
+
+  <!-- Loading Overlay -->
+  <div id="loadingSurat" class="loading-overlay">
+    <div class="text-center space-y-4">
+      <div class="loading-spinner"></div>
+      <p class="text-emerald-700 font-medium text-lg">Memuat surat-surat penuh makna...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

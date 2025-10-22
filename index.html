@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kotak Surat Hati • Sebuah Ruang untuk Pesan yang Tulus</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-emerald-50 via-green-50 to-teal-100 min-h-screen flex items-center justify-center px-6 font-sans">
+
+  <!-- 🌿 Main Container -->
+  <div class="max-w-md w-full text-center space-y-8 md:space-y-12">
+
+    <!-- ✉️ Envelope Section -->
+    <div class="relative envelope-section">
+      <!-- Floating Background Elements -->
+      <div class="absolute -inset-8 -z-10">
+        <div class="absolute top-1/4 left-1/4 w-16 h-16 bg-emerald-200/40 rounded-full blur-xl animate-float-slow"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-20 h-20 bg-teal-200/30 rounded-full blur-xl animate-float-slow" style="animation-delay: 1s;"></div>
+      </div>
+
+      <!-- Envelope -->
+      <div class="relative envelope-container group cursor-pointer" onclick="bukaSurat()">
+        <!-- Hover Badge -->
+        <div class="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-4 py-2 rounded-full text-sm font-medium shadow-lg transition-all duration-500 opacity-0 group-hover:opacity-100 -translate-y-3 group-hover:translate-y-0 pointer-events-none z-20">
+          <div class="flex items-center space-x-2">
+            <span>💌 Buka Surat</span>
+          </div>
+          <div class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-3 h-3 bg-emerald-500 rotate-45"></div>
+        </div>
+
+        <!-- Envelope Image -->
+        <div class="relative z-10">
+          <img 
+            src="assets/logo-ppmb.png"
+            alt="Buka Kotak Surat Hati"
+            class="w-48 h-48 mx-auto envelope-image transition-all duration-700"
+            id="mainEnvelope">
+          <div class="absolute inset-0 envelope-shimmer"></div>
+        </div>
+
+        <!-- Pulse Circles -->
+        <div class="absolute inset-0 pulse-circle-1"></div>
+        <div class="absolute inset-0 pulse-circle-2"></div>
+      </div>
+    </div>
+
+    <!-- 🕊️ Content Section -->
+    <div class="content-section space-y-4 md:space-y-6">
+      <!-- Title -->
+      <div class="space-y-3">
+        <h1 class="text-3xl md:text-4xl font-bold text-emerald-900 tracking-tight leading-tight title-main">
+          Kotak Surat Hati
+        </h1>
+        <div class="w-20 h-1 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-full mx-auto transition-all duration-700 group-hover:scale-125"></div>
+      </div>
+
+      <!-- Subtitle -->
+      <p class="text-lg md:text-xl text-emerald-700 font-light leading-relaxed subtitle-main">
+        Tempat sederhana bagi pesan yang tulus, kenangan yang hangat,  
+        dan kata-kata kecil yang mungkin tak sempat terucap.
+      </p>
+
+      <!-- Instruction -->
+      <div class="instruction-section mt-6 md:mt-8">
+        <p class="text-emerald-600 text-base md:text-lg leading-relaxed instruction-text">
+          Sentuh amplop di atas untuk membuka lembaran hangat dari hati ke hati.
+        </p>
+        <div class="flex justify-center space-x-1 mt-3 md:mt-4">
+          <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-gentle-bounce"></div>
+          <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-gentle-bounce" style="animation-delay: 0.1s;"></div>
+          <div class="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-gentle-bounce" style="animation-delay: 0.2s;"></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
