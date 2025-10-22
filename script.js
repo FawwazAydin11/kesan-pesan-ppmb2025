@@ -172,32 +172,32 @@ const suratList = [
   {
     nama: "Sarah",
     foto: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-    pesan: "Hari ini aku ingin mengingatkanmu bahwa kamu adalah seseorang yang sangat berharga. Setiap langkah yang kamu ambil, setiap keputusan yang kamu buat, semuanya membawamu pada perjalanan yang unik. Jangan pernah meragukan dirimu sendiri karena di balik semua keraguan itu, ada potensi besar yang menantimu. Teruslah berjalan, meski pelan, yang penting konsisten. Aku percaya padamu. Pernahkah kamu merasa lelah dengan semua rutinitas? Aku juga. Tapi kemudian aku sadar, dalam kelelahan itu ada pelajaran tentang ketangguhan..."
+    pesan: "Hari ini aku ingin mengingatkanmu bahwa kamu adalah seseorang yang sangat berharga. Setiap langkah yang kamu ambil, setiap keputusan yang kamu buat, semuanya membawamu pada perjalanan yang unik. Jangan pernah meragukan dirimu sendiri karena di balik semua keraguan itu, ada potensi besar yang menantimu. Teruslah berjalan, meski pelan, yang penting konsisten. Aku percaya padamu. Pernahkah kamu merasa lelah dengan semua rutinitas? Aku juga. Tapi kemudian aku sadar, dalam kelelahan itu ada pelajaran tentang ketangguhan. Setiap bangun pagi adalah kesempatan baru untuk mencoba, untuk belajar, untuk tumbuh. Jangan biarkan kelelahan menghentikanmu. Istirahatlah sejenak, tapi jangan menyerah. Kamu lebih kuat dari yang kamu kira. Bahkan di saat-saat tersulit sekalipun, ada kekuatan dalam dirimu yang belum sepenuhnya kamu eksplor."
   },
   {
     nama: "Rizky Pratama",
     foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-    pesan: "Pernahkah kamu merasa lelah dengan semua rutinitas? Aku juga. Tapi kemudian aku sadar, dalam kelelahan itu ada pelajaran tentang ketangguhan. Setiap bangun pagi adalah kesempatan baru untuk mencoba, untuk belajar, untuk tumbuh. Jangan biarkan kelelahan menghentikanmu. Istirahatlah sejenak, tapi jangan menyerah. Kamu lebih kuat dari yang kamu kira."
+    pesan: "Pernahkah kamu merasa lelah dengan semua rutinitas? Aku juga. Tapi kemudian aku sadar, dalam kelelahan itu ada pelajaran tentang ketangguhan. Setiap bangun pagi adalah kesempatan baru untuk mencoba, untuk belajar, untuk tumbuh. Jangan biarkan kelelahan menghentikanmu. Istirahatlah sejenak, tapi jangan menyerah. Kamu lebih kuat dari yang kamu kira. Bahkan di saat-saat tersulit sekalipun, ada kekuatan dalam dirimu yang belum sepenuhnya kamu eksplor. Progress tidak selalu linear. Ada hari-hari di mana kita merasa stuck, seolah tidak ada kemajuan. Tapi percayalah, setiap usaha kecil yang kita lakukan setiap hari akan terakumulasi menjadi sesuatu yang besar."
   },
   {
     nama: "Dewi Lestari",
     foto: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
-    pesan: "Terkadang kita terlalu sibuk mencari kebahagiaan di tempat jauh, sampai lupa bahwa kebahagiaan bisa ditemukan dalam hal-hal kecil. Secangkir kopi hangat di pagi hari, senyuman dari orang asing, bunga yang mekar di tepi jalan, atau bahkan bisa bernapas dengan lega. Hari ini, cobalah untuk lebih mindful. Perhatikan hal-hal kecil di sekitarmu. Syukuri setiap momen."
+    pesan: "Terkadang kita terlalu sibuk mencari kebahagiaan di tempat jauh, sampai lupa bahwa kebahagiaan bisa ditemukan dalam hal-hal kecil. Secangkir kopi hangat di pagi hari, senyuman dari orang asing, bunga yang mekar di tepi jalan, atau bahkan bisa bernapas dengan lega. Hari ini, cobalah untuk lebih mindful. Perhatikan hal-hal kecil di sekitarmu. Syukuri setiap momen. Hidup ini singkat, mari kita isi dengan hal-hal yang berarti dan berharga bagi jiwa kita."
   },
   {
     nama: "Ahmad Fauzi",
     foto: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-    pesan: "Aku ingin berbagi sesuatu yang baru saja kupelajari: Progress tidak selalu linear. Ada hari-hari di mana kita merasa stuck, seolah tidak ada kemajuan. Tapi percayalah, setiap usaha kecil yang kita lakukan setiap hari akan terakumulasi menjadi sesuatu yang besar. Seperti tetesan air yang terus menerus bisa melubangi batu."
+    pesan: "Aku ingin berbagi sesuatu yang baru saja kupelajari: Progress tidak selalu linear. Ada hari-hari di mana kita merasa stuck, seolah tidak ada kemajuan. Tapi percayalah, setiap usaha kecil yang kita lakukan setiap hari akan terakumulasi menjadi sesuatu yang besar. Seperti tetesan air yang terus menerus bisa melubangi batu. Jadi, jangan berhenti. Terus menetes. Konsistensi adalah kunci dari segala kesuksesan yang berkelanjutan."
   },
   {
     nama: "Maya Sari",
     foto: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    pesan: "Untuk semua yang sedang berjuang dengan rasa cemasnya: Kamu tidak sendirian. Rasa cemas itu seperti awan yang lewat, datang dan pergi. Ia tidak mendefinisikanmu. Latihlah untuk bernapas dalam-dalam, grounding diri, dan mengingat bahwa kamu aman pada saat ini."
+    pesan: "Untuk semua yang sedang berjuang dengan rasa cemasnya: Kamu tidak sendirian. Rasa cemas itu seperti awan yang lewat, datang dan pergi. Ia tidak mendefinisikanmu. Latihlah untuk bernapas dalam-dalam, untuk grounding diri, untuk mengingat bahwa kamu aman pada saat ini. Jika hari ini berat, istirahatlah. Besok adalah hari baru dengan energi baru. Kamu bisa melewati ini. Percayalah pada proses pemulihan dirimu sendiri."
   },
   {
     nama: "Budi Santoso",
     foto: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
-    pesan: "Hal-hal kecil yang dilakukan secara konsisten akan memberikan hasil besar. Membaca 10 halaman sehari, berjalan 15 menit, menulis jurnal 5 menit — terlihat kecil, tapi dalam setahun akan memberikan dampak signifikan. Mulailah dari yang kecil, lakukan dengan konsisten, dan lihat keajaibannya."
+    pesan: "Pernah dengar tentang 'the compound effect'? Hal-hal kecil yang dilakukan secara konsisten akan memberikan hasil yang besar dalam jangka panjang. Membaca 10 halaman sehari, berjalan 15 menit, menulis jurnal 5 menit - semuanya terlihat kecil, tapi dalam setahun akan memberikan dampak yang signifikan. Mulailah dari yang kecil, lakukan secara konsisten, dan lihat keajaiban yang terjadi dalam hidupmu secara bertahap namun pasti."
   }
 ];
 
@@ -258,9 +258,13 @@ function escapeQuotes(text) {
 }
 
 // =========================
-// 💌 MODAL SURAT
+// 💌 MODAL SURAT - FIXED SCROLL
 // =========================
 function bukaModal(nama, foto, pesan) {
+  // Hapus modal yang sudah ada
+  const existingModal = document.querySelector('.modal-overlay');
+  if (existingModal) existingModal.remove();
+
   const modalOverlay = document.createElement("div");
   modalOverlay.className = "modal-overlay";
   modalOverlay.innerHTML = `
@@ -279,15 +283,27 @@ function bukaModal(nama, foto, pesan) {
 
   setTimeout(() => modalOverlay.classList.add("active"), 10);
 
+  // Close modal on overlay click dan ESC key
   modalOverlay.addEventListener("click", (e) => {
     if (e.target === modalOverlay) tutupModal(modalOverlay);
+  });
+
+  document.addEventListener("keydown", function closeOnEscape(e) {
+    if (e.key === "Escape") {
+      tutupModal(modalOverlay);
+      document.removeEventListener("keydown", closeOnEscape);
+    }
   });
 }
 
 function tutupModal(el) {
   const modalOverlay = el.closest ? el.closest(".modal-overlay") : el;
   modalOverlay.classList.remove("active");
-  setTimeout(() => modalOverlay.remove(), 300);
+  setTimeout(() => {
+    if (modalOverlay.parentElement) {
+      modalOverlay.remove();
+    }
+  }, 300);
 }
 
 // =========================
@@ -303,24 +319,9 @@ function kembaliKeIndex() {
 }
 
 // =========================
-// 📨 ANIMASI INDEX
+// INITIALIZATION SURAT.HTML
 // =========================
 document.addEventListener("DOMContentLoaded", () => {
-  const envelope = document.getElementById("mainEnvelope");
-
-  // Efek hover amplop
-  if (envelope) {
-    envelope.addEventListener("mouseenter", () => {
-      envelope.style.transform = "scale(1.05) rotate(1deg)";
-      envelope.style.filter = "drop-shadow(0 20px 30px rgba(16, 185, 129, 0.4))";
-    });
-
-    envelope.addEventListener("mouseleave", () => {
-      envelope.style.transform = "scale(1) rotate(0deg)";
-      envelope.style.filter = "drop-shadow(0 10px 20px rgba(16, 185, 129, 0.3))";
-    });
-  }
-
   // Kalau ini halaman surat
   if (document.getElementById("daftar-surat")) {
     muatSurat();

@@ -314,12 +314,16 @@ html {
 }
 
 /* =============================
-   MODAL
+   💌 MODAL SURAT - FIXED FOR LONG CONTENT
    ============================= */
+
 .modal-overlay {
   position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
@@ -342,8 +346,8 @@ html {
   padding: 2rem;
   max-width: 500px;
   width: 100%;
-  max-height: 80vh;
-  overflow-y: auto;
+  max-height: 80vh; /* Batas tinggi maksimal */
+  overflow-y: auto; /* Scroll jika konten panjang */
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
   transform: scale(0.9);
   transition: transform 0.3s ease;
@@ -361,6 +365,10 @@ html {
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
 }
 
 .modal-foto {
@@ -369,21 +377,23 @@ html {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #10b981;
+  flex-shrink: 0;
 }
 
 .modal-nama {
   font-size: 1.25rem;
   font-weight: 600;
   color: #065f46;
+  margin: 0;
 }
 
 .modal-pesan {
   color: #374151;
   line-height: 1.7;
   font-size: 1rem;
+  white-space: pre-line; /* Biar enter/baris baru terbaca */
 }
 
-/* Tombol Tutup */
 .tombol-tutup {
   position: absolute;
   top: 1rem;
@@ -400,11 +410,53 @@ html {
   cursor: pointer;
   font-size: 1.25rem;
   transition: all 0.3s ease;
+  z-index: 2;
 }
 
 .tombol-tutup:hover {
   background: #dc2626;
   transform: scale(1.1);
+}
+
+/* Custom scrollbar untuk modal */
+.modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: rgba(16, 185, 129, 0.1);
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: #059669;
+}
+
+/* Responsive modal */
+@media (max-width: 640px) {
+  .modal-content {
+    margin: 1rem;
+    padding: 1.5rem;
+    max-height: 85vh;
+  }
+  
+  .modal-foto {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .modal-nama {
+    font-size: 1.1rem;
+  }
+  
+  .modal-pesan {
+    font-size: 0.95rem;
+  }
 }
 
 /* =============================
